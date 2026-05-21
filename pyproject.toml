@@ -1,0 +1,16 @@
+[project]
+name = "faster-whisper-demo"
+version = "0.1.0"
+description = "CLI transcription app using Faster-Whisper tiny on CPU."
+readme = "specs.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.1.0",
+    "huggingface-hub>=0.23.0",
+    "python-dotenv>=1.0.0",
+    "torch>=2.7.0",
+    "transformers>=4.53.0",
+]
+
+[tool.uv]
+package = false
