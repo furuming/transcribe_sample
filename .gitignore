@@ -124,3 +124,6 @@ dmypy.json
 
 # uv specific
 .uv/
+
+# App outputs
+output/
